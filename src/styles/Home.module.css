@@ -1,0 +1,120 @@
+.background {
+  background: linear-gradient(180deg, #111025 0%, #1f1330 100%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.hero {
+  margin-top: 5em;
+  align-items: flex-start;
+}
+
+.heroTextContainer {
+  margin-left: 32px;
+  z-index: 1;
+}
+
+.left {
+  z-index: 2;
+}
+
+.right {
+  margin-top: -5em;
+}
+
+.caption {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.link {
+  color: inherit;
+}
+
+.link:hover {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.bio {
+  opacity: 0.85;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.summary {
+  opacity: 0.85;
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.heroImageContainer {
+  width: 100%;
+}
+
+.waves {
+  width: 100%;
+  margin-top: -20em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  text-shadow: 0 0 80px rgb(192 219 255 / 48%), 0 0 32px rgb(65 120 255 / 24%);
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.exampleWorkContainer {
+  margin-top: 12px;
+}
+
+.exampleWorkCard:hover {
+  color: #fff;
+  transform: scale(1.05);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* XS screens */
+@media (max-width: 899px) {
+  .hero {
+    margin-top: 3em;
+    text-align: start;
+    width: 100%;
+  }
+
+  .heroTextContainer {
+    margin-left: 0px;
+  }
+
+  .subtitle {
+    margin-top: 0px;
+  }
+
+  .right {
+    display: none;
+    margin-top: -2em;
+  }
+}
+
+/* SM Screens (600 - 900) */
+@media (min-width: 900px) and (max-width: 1219px) {
+  .right {
+    margin-top: 0.5em;
+  }
+}
+
+/* Waves Control on responsive */
+@media (max-width: 1220px) {
+  .waves {
+    display: none;
+  }
+}
