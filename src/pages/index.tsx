@@ -61,6 +61,7 @@ export default function Home() {
                       title="Portal"
                       image="/thirdweb.png"
                       description="150K+ lines of docs."
+                      lgDir="120deg"
                     />
                   </Grid>
                   <Grid
@@ -75,6 +76,7 @@ export default function Home() {
                       title="Templates"
                       image="/thirdweb.png"
                       description="60+ starter templates."
+                      lgDir="240deg"
                     />
                   </Grid>
                   <Grid
@@ -89,6 +91,7 @@ export default function Home() {
                       title="Guides"
                       image="/thirdweb.png"
                       description="40+ developer guides."
+                      lgDir="360deg"
                     />
                   </Grid>
                 </Grid>
@@ -117,6 +120,7 @@ export default function Home() {
                 title="Portal"
                 image="/thirdweb.png"
                 description="150K+ lines of docs."
+                lgDir="120deg"
               />
             </Grid>
             <Grid item sm={4} className={styles.exampleWorkCard}>
@@ -125,6 +129,7 @@ export default function Home() {
                 title="Templates"
                 image="/thirdweb.png"
                 description="60+ starter templates."
+                lgDir="240deg"
               />
             </Grid>
             <Grid item sm={4} className={styles.exampleWorkCard}>
@@ -133,6 +138,7 @@ export default function Home() {
                 title="Guides"
                 image="/thirdweb.png"
                 description="40+ developer guides."
+                lgDir="360deg"
               />
             </Grid>
           </Grid>
