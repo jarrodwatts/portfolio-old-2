@@ -9,7 +9,6 @@ import styles from "../styles/Home.module.css";
 import Video from "../types/Video";
 import Blog from "../types/Blog";
 import YoutubeVideos from "../components/YoutubeVideos/YoutubeVideos";
-import Image from "next/image";
 import BlogPosts from "../components/BlogPosts/BlogPosts";
 import SocialsTable from "../components/SocialsTable/SocialsTable";
 import Discord from "../components/Discord/Discord";

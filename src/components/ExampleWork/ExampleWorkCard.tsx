@@ -38,7 +38,7 @@ export default function ExampleWorkCard({
               width={36}
               height={36}
             />
-            <Typography variant="h4" className={styles.title}>
+            <Typography component="p" variant="h4" className={styles.title}>
               {title}
             </Typography>
           </div>

@@ -20,7 +20,7 @@ export default function Discord() {
       />
 
       <div className={styles.textContainer}>
-        <Typography variant="h4" className={styles.title}>
+        <Typography component="p" variant="h4" className={styles.title}>
           Join the community on Discord
         </Typography>
         <Typography variant="body2" className={styles.description}>

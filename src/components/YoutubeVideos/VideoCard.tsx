@@ -27,7 +27,7 @@ export default function VideoCard({ video }: Props) {
           width={640}
           style={{ objectFit: "cover" }}
         />
-        <Typography variant="h4" className={styles.title}>
+        <Typography component="p" variant="h4" className={styles.title}>
           {title}
         </Typography>
       </div>
