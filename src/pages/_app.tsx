@@ -20,6 +20,17 @@ export default function MyApp(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta name="author" content="Jarrod Watts" />
+        <meta
+          name="description"
+          content="Jarrod Watts is a developer experience engineer with a background in software and data engineering. View his latest work and projects."
+        />
+        <meta
+          name="keywords"
+          content="Jarrod Watts, developer experience, developer relations, web3, software engineer, developer portfolio, programming, projects"
+        />
+
+        <title>Jarrod Watts</title>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
