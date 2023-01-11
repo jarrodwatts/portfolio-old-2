@@ -16,7 +16,7 @@ export default function Discord() {
         alt="Discord"
         height={48}
         width={48}
-        className={styles.icon}
+        className={`${styles.icon} ${styles.link}`}
       />
 
       <div className={styles.textContainer}>

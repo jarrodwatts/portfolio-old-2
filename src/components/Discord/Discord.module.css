@@ -19,6 +19,7 @@
 }
 
 .link:hover {
+  transform: scale(1.02);
   color: #fff;
   transition: all 0.2s ease-in-out;
 }
