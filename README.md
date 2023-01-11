@@ -10,4 +10,4 @@ It's built with:
 - TypeScript
 - Material UI & CSS Modules
 
-Feel free to use this as a template for your own portfolio!
+Feel free to use this as a template for your portfolio if you like it!
