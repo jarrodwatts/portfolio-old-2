@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  background-color: #1b1326;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  min-height: 96px;
+  gap: 32px;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.link:hover {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon {
+  margin-left: 8px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #fff;
+  font-weight: 500;
+}
+
+.description {
+}

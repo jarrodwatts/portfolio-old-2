@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import styles from "./ExampleWorkCard.module.css";
 
@@ -19,7 +20,7 @@ export default function ExampleWorkCard({
   lgDir,
 }: Props) {
   return (
-    <Link className={styles.linkWrapper} href={link}>
+    <Link className={styles.linkWrapper} href={link} target="_blank">
       <div
         className={styles.card}
         style={{
@@ -30,7 +31,13 @@ export default function ExampleWorkCard({
       >
         <div className={styles.innerCard}>
           <div className={styles.cardHeader}>
-            <img src={image} alt={title} className={styles.image} />
+            <Image
+              src={image}
+              alt={title}
+              className={styles.image}
+              width={36}
+              height={36}
+            />
             <Typography variant="h4" className={styles.title}>
               {title}
             </Typography>
