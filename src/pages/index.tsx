@@ -113,7 +113,7 @@ export default function Home({ posts, videos }: Props) {
 
         <YoutubeVideos videos={videos?.slice(0, 3)} />
         <Link
-          href="https://blog.jarrodwatts.com"
+          href="https://www.youtube.com/jarrodwatts/videos"
           className={styles.link}
           target="_blank"
         >
@@ -134,7 +134,7 @@ export default function Home({ posts, videos }: Props) {
 
         <BlogPosts blogs={posts.slice(0, 3)} />
         <Link
-          href="https://www.youtube.com/jarrodwatts/videos"
+          href="https://blog.jarrodwatts.com"
           className={styles.link}
           target="_blank"
         >
